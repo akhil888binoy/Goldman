@@ -78,7 +78,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Label="{x:Null}" Options="{x:Null}" OptionsString="{x:Null}" Result="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,239" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" />
+    <ui:InputDialog Label="{x:Null}" Options="{x:Null}" OptionsString="{x:Null}" Result="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,239" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Title="Goldman" />
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: New chat" sap:VirtualizedContainerService.HintSize="484,548" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3ee48405-462e-4261-aa72-fb559a5a487f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
