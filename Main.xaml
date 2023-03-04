@@ -96,7 +96,7 @@
         <OutArgument x:TypeArguments="x:String">[ScriptScene]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: New chat" sap:VirtualizedContainerService.HintSize="484,548" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3ee48405-462e-4261-aa72-fb559a5a487f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: New chat" sap:VirtualizedContainerService.HintSize="484,548" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3ee48405-462e-4261-aa72-fb559a5a487f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
