@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="662,1249" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="574,1242" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="62">
       <x:String>System.Activities</x:String>
@@ -84,7 +84,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1184" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="546,1177" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ScriptScene" />
     </Sequence.Variables>
@@ -98,13 +98,13 @@
         <OutArgument x:TypeArguments="x:String">[ScriptScene]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: New chat" sap:VirtualizedContainerService.HintSize="484,794" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3ee48405-462e-4261-aa72-fb559a5a487f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: New chat" sap:VirtualizedContainerService.HintSize="484,787" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3ee48405-462e-4261-aa72-fb559a5a487f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,537" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,530" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -121,7 +121,17 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NGetText DisplayName="Get Text" sap:VirtualizedContainerService.HintSize="388,164" sap2010:WorkflowViewState.IdRef="NGetText_1" Version="V3" />
+            <uix:NGetText DisplayName="Get Text 'Sure, here's'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="3ee48405-462e-4261-aa72-fb559a5a487f" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://chat.openai.com/chat" DesignTimeRectangle="487, 231, 653, 1588" DesignTimeScaleFactor="1" FriendlyName="'Sure, here's'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='__next' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='markdown prose w-full break-words dark:prose-invert light' parentid='__next' tag='DIV' aaname='' /&gt;" Guid="1149927c-9696-4131-88b4-fc3af23bcb03" InformativeScreenshot="3441da9b7e0c6d403706efcabd5d7a25.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Comedy script in code.' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="435, 232, 26, 28" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' idx='3' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='h-6 w-6' tag='svg' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAcCAYAAAB/E6/TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVEhL5dU9bhRBEAVgjsANuAE34AbcgBPACSByaDIyHBIgg4g2MUJyApL5CQgscOAEhHACEQaBZOGk2W/EG9X07tpgJAJ40pO3p7vrVb2qGZ87f3et/Q3+p0IXZ7fa+qvHbefju4HXXz5qFx6sLz27iqcKbey/aHDw7bA9nYsgfP5+1C5v31l6ZxlPFIrIjXkF9blqvhwfDXvB608f2tVns8m5ypVC7IKbc8vq8ytP7rf3Xw+HvXtvd4ck0G/YOtifnA8XhGS7+WZ3sAbSC8L6A+yz7u9eez4b9jnR702ELm1tDAJs2ZtbIWCegz6pKOf1qB8MDkA/LBMhwQWTrQsREvBhsSTVOQusTH9ieU0IRyHBIJPUC1nL8vbPAUnvBJYEEE+c7IejkA0Z1nUVEoSt/Nd4Z+uUOcORIAmHE6EE7tcJUgfAM2IS0MN6D/pXYhSyAWmiC94NvwW1ztlQIio0PCY1dz1TfR2IUShNTMB4r9H6skpIEgL2d6EOxCiEDoKRzbPYprreOkn4aw01mX49EcoLB5mgusci1bFJf/BMQqkoVUC8RyLEnLOOde5CAifh6sBEqB8Ia4E1lk3GOpedYWcvlK9LnWCcCKWJdTQFtO5tzKcqow2EgRtJNpwIoawFqe9GSCzBTGSqq9/C2NrfXRByqPbH2++/q88/2KvVIVHVLRMIF4RCmcmwQp9qML/z7WNnvd9zpVDPjDcYfQxOE8FfFkI9MRgmil2qriN8En9L6E/4rwmttR9EEHDXEv3D4QAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
